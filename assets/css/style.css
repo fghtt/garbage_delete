@@ -1,0 +1,234 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	max-width: 1920px;
+
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+
+	overflow-x: hidden;
+}
+
+.container {
+	width: 1200px;
+	margin: auto auto;
+	overflow-x: hidden;
+}
+
+/*header*/
+.header {
+	max-width: 1200px;
+	width: 100%;
+	height: 64px;
+	display: flex;
+	margin: auto auto;
+}
+
+.header__title {
+	margin-top: 21px;
+}
+
+.header__h1 {
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.header .header__span {
+	background: black;
+	color: #fff;
+
+	font-size: 19px;
+}
+
+.header__phone {
+	margin: 0 0 0 71.5%;
+	display: flex;
+}
+
+.header__icon {
+	margin-top: 21px;
+}
+
+.header__p {
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 28px;
+	text-transform: uppercase;
+
+	color: #171717;
+
+	margin: 17px 0 0 10px;
+}
+
+/*banner*/
+.banner {
+	background: #F5F5F5;
+	width: 100vw;
+	height: 485px;
+}
+
+.banner .container {
+	display: flex;
+}
+
+.banner__title {
+	width: 567px;
+	padding-top: 87px;
+}
+
+.banner__h2 {
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 43px;
+	text-transform: uppercase;
+}
+
+.banner__span {
+	color: #EE7E17;
+}
+
+.banner__subtitle {
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #717171;
+
+	max-width: 461px;
+	margin-top: 30px;
+}
+
+.banner__button {
+	margin-top: 30px;
+}
+
+.banner__btn {
+	width: 239px;
+	height: 58px;
+
+	background: #EE7E17;
+	color: #FFFFFF;
+	border-radius: 1000px;
+	border: 0;
+	cursor: pointer;
+
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+}
+
+
+.banner__preview {
+	padding: 58px 0 0 0;
+
+	position: relative;
+	z-index: 1;
+	right: 60px;
+}
+
+/*details*/ 
+.details {
+	margin: 70px 0 70px 0;
+}
+.details__list {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-row-gap: 40px;
+	justify-items: center; 
+}
+
+.details__item {
+	width: 350px;
+}
+
+.details__icon {
+	display: flex;
+	justify-content: center;
+}
+
+.details__title {
+	margin-top: 20px;
+}
+
+.details__h2 {
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+
+	color: #171717;
+}
+
+.details__content {
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+
+	color: #717171;
+
+	margin-top: 20px;
+}
+
+/*calculator*/
+.calculator {
+	background: #F5F5F5;
+}
+.calculator__title {
+	text-align: center;
+}
+
+.calculator__h2 {
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 33px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.calculator__subtitle {
+	text-align: center;
+}
+
+.calculator__page {
+	text-align: center;
+}
+
+.calculator-options__item {
+	width: 639px;
+	background: #fff;
+	margin: auto auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
