@@ -1,0 +1,36 @@
+.swiper-next, .swiper-prev {
+	cursor: pointer;
+}
+
+.swiper-buttons {
+	display: flex;
+
+	position: relative;
+	bottom: 120px;
+	left: 190px;
+}
+
+.swiper-slide {
+	position: relative;
+	z-index: 1;
+}
+
+.swiper-next {
+	transform: rotate(180deg);
+
+	position: relative;
+	left: 700px;
+	bottom: 4px;
+}
+
+.swiper-pagination {
+	position: static;
+}
+
+.swiper-pagination-bullet-active {
+	background: #EE7E17;
+}
+
+.swiper {
+	width: 639px!important;
+}

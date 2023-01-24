@@ -1,157 +1,227 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Css -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<!-- Fonts -->
-	<!-- Rubik -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-	<title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Css -->
+    <!--Swiper-->
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/swiper.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Fonts -->
+    <!-- Rubik -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <title></title>
+    <!--JS-->
+    <!--Swiper-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 <body>
-	<!-- header -->
-	<header class="header">
-		<div class="header__title">
-			<h1 class="header__h1">
-				<span class="header__span">GARBAGE</span>Delete
-			</h1>
-		</div>
-		<div class="header__phone">
-			<div class="header__icon">
-				<img src="assets/images/icons/Vector.png">
-			</div>
-			<p class="header__p">
-				8-800-2000-600
-			</p>
-		</div>
-	</header>
-	<!-- main -->
-	<main>
-		<!-- banner -->
-		<section class="banner">
-			<div class="container">
-				<div class="banner__information">
-					<div class="banner__title">
-						<h2 class="banner__h2"><span class="banner__span">Вывоз мусора</span> из квартиры на Газели с помощью грузчиков</h2>
-					</div>	
-					<div class="banner__subtitle">
-						<p>В назначенное время наши работники прибудут на объект и максимально оперативно выполнят все необходимые работы - без шума, без грязи и без проволочек</p>
-					</div>
-					<div class="banner__button">
-						<button class="banner__btn">Рассчитать стоимость</button>
-					</div>			
-				</div>
-				<div class="banner__preview">
-					<img src="assets/images/Group 8.png">
-				</div>
-			</div><!-- container -->
-		</section>
-		<!-- details-->
-		<section class="details">
-			<div class="container">
-				<div class="details__list">
-					<div class="details__item">
-						<div class="details__icon">
-							<img src="assets/images/icons/Polygon 1.png">
-						</div>
-						<div class="details__title">
-							<h2 class="details__h2">Работаем оперативно</h2>
-						</div>
-						<div class="details__content">
-							<p class="details__p">Имеем технические возможности брать срочные заказы (подача машины в течении 1-2 часов по Москве)</p>
-						</div>
-					</div>
-					<div class="details__item">
-						<div class="details__icon">
-							<img src="assets/images/icons/Polygon 2.png">
-						</div>
-						<div class="details__title">
-							<h2 class="details__h2">Оплата нал/безнал</h2>
-						</div>
-						<div class="details__content">
-							<p class="details__p">Работаем с физ. лицами как за наличный расчет, так и с юр. лицами по безналу</p>
-						</div>
-					</div>
-					<div class="details__item">
-						<div class="details__icon">
-							<img src="assets/images/icons/Polygon 3.png">
-						</div>
-						<div class="details__title">
-							<h2 class="details__h2">Имеем пропуска в зону 0</h2>
-						</div>
-						<div class="details__content">
-							<p class="details__p">Имеем возможность производить работы в центре Москвы в дневное время</p>
-						</div>
-					</div>
-					<div class="details__item">
-						<div class="details__icon">
-							<img src="assets/images/icons/Polygon 4.png">
-						</div>
-						<div class="details__title">
-							<h2 class="details__h2">Отчетность и разрешения</h2>
-						</div>
-						<div class="details__content">
-							<p class="details__p">Предоставляем полную отчетность, имеем договоры с полигонами по строительным и производственным отходам</p>
-						</div>
-					</div>
-					<div class="details__item">
-						<div class="details__icon">
-							<img src="assets/images/icons/Polygon 5.png">
-						</div>
-						<div class="details__title">
-							<h2 class="details__h2">Грузчики</h2>
-						</div>
-						<div class="details__content">
-							<p class="details__p">Вынесем и погрузим мусор как из помещения, так и совершим загрузку на участке или ином объекте</p>
-						</div>
-					</div>
-					<div class="details__item">
-						<div class="details__icon">
-							<img src="assets/images/icons/Polygon 5.png">
-						</div>
-						<div class="details__title">
-							<h2 class="details__h2">Лицензия</h2>
-						</div>
-						<div class="details__content">
-							<p class="details__p">Лицензия федеральной службы по надзору в сфере природопользования</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--calculator-->
-		<section class="calculator">
-			<div class="container">
-				<div class="calculator__title">
-					<h2 class="calculator__h2">КАЛЬКУЛЯТОР ВЫВОЗА МУСОРА</h2>
-				</div>
-				<div class="calculator__page">
-					<span class="calculator__page-active">2 /</span><
-					<span class="calculator__page-inactive"> 4</span>
-				</div>
-				<div class="calculator__subtitle">
-					<p>Ответьте на несколько вопросов и узнайте стоимость вывоза мусора</p>
-				</div>
-				<div class="calculator-options">
-					<div class="calculator-options__list">
-						<div class="calculator-options__item">
-							<div class="calculator-options__title">
-								<h2 class="calculator-options__h2">Каким образом планируете произвести расчет?</h2>
-							</div>
-							<div class="calculator-options__checkbox">
-								<label><input type="checkbox" value="">Наличными</label>
-								<label><input type="checkbox" value="">Переводом на карту</label>
-								<label><input type="checkbox" value="">Оплата безналом со счета юр. лица</label>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-	</main>
+<!-- header -->
+<header class="header">
+    <div class="header__title">
+        <h1 class="header__h1">
+            <span class="header__span">GARBAGE</span>
+        </h1>
+    </div>
+    <div class="header__phone">
+        <div class="header__icon">
+            <img src="assets/images/icons/Vector.png">
+        </div>
+        <p class="header__p">
+            8-800-2000-600
+        </p>
+    </div>
+</header>
+<!-- main -->
+<main>
+    <!-- banner -->
+    <section class="banner">
+        <div class="container">
+            <div class="banner__information">
+                <div class="banner__title">
+                    <h2 class="banner__h2"><span class="banner__span">Вывоз мусора</span> из квартиры на Газели с
+                        помощью грузчиков</h2>
+                </div>
+                <div class="banner__subtitle">
+                    <p>В назначенное время наши работники прибудут на объект и максимально оперативно выполнят все
+                        необходимые работы - без шума, без грязи и без проволочек</p>
+                </div>
+                <div class="banner__button">
+                    <button class="banner__btn">Рассчитать стоимость</button>
+                </div>
+            </div>
+            <div class="banner__preview">
+                <img src="assets/images/Group 8.png">
+            </div>
+        </div><!-- container -->
+    </section>
+    <!-- details-->
+    <section class="details">
+        <div class="container">
+            <div class="details__list">
+                <div class="details__item">
+                    <div class="details__icon">
+                        <img src="assets/images/icons/Polygon 1.png">
+                    </div>
+                    <div class="details__title">
+                        <h2 class="details__h2">Работаем оперативно</h2>
+                    </div>
+                    <div class="details__content">
+                        <p class="details__p">Имеем технические возможности брать срочные заказы (подача машины в
+                            течении 1-2 часов по Москве)</p>
+                    </div>
+                </div>
+                <div class="details__item">
+                    <div class="details__icon">
+                        <img src="assets/images/icons/Polygon 2.png">
+                    </div>
+                    <div class="details__title">
+                        <h2 class="details__h2">Оплата нал/безнал</h2>
+                    </div>
+                    <div class="details__content">
+                        <p class="details__p">Работаем с физ. лицами как за наличный расчет, так и с юр. лицами по
+                            безналу</p>
+                    </div>
+                </div>
+                <div class="details__item">
+                    <div class="details__icon">
+                        <img src="assets/images/icons/Polygon 3.png">
+                    </div>
+                    <div class="details__title">
+                        <h2 class="details__h2">Имеем пропуска в зону 0</h2>
+                    </div>
+                    <div class="details__content">
+                        <p class="details__p">Имеем возможность производить работы в центре Москвы в дневное время</p>
+                    </div>
+                </div>
+                <div class="details__item">
+                    <div class="details__icon">
+                        <img src="assets/images/icons/Polygon 4.png">
+                    </div>
+                    <div class="details__title">
+                        <h2 class="details__h2">Отчетность и разрешения</h2>
+                    </div>
+                    <div class="details__content">
+                        <p class="details__p">Предоставляем полную отчетность, имеем договоры с полигонами по
+                            строительным и производственным отходам</p>
+                    </div>
+                </div>
+                <div class="details__item">
+                    <div class="details__icon">
+                        <img src="assets/images/icons/Polygon 5.png">
+                    </div>
+                    <div class="details__title">
+                        <h2 class="details__h2">Грузчики</h2>
+                    </div>
+                    <div class="details__content">
+                        <p class="details__p">Вынесем и погрузим мусор как из помещения, так и совершим загрузку на
+                            участке или ином объекте</p>
+                    </div>
+                </div>
+                <div class="details__item">
+                    <div class="details__icon">
+                        <img src="assets/images/icons/Polygon 5.png">
+                    </div>
+                    <div class="details__title">
+                        <h2 class="details__h2">Лицензия</h2>
+                    </div>
+                    <div class="details__content">
+                        <p class="details__p">Лицензия федеральной службы по надзору в сфере природопользования</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--calculator-->
+    <section class="calculator">
+        <div class="container">
+            <div class="calculator__title">
+                <h2 class="calculator__h2">КАЛЬКУЛЯТОР ВЫВОЗА МУСОРА</h2>
+            </div>
+            <div class="calculator__subtitle">
+                <p>Ответьте на несколько вопросов и узнайте стоимость вывоза мусора</p>
+            </div>
+            <div class="calculator__page">
+                <span class="calculator__page-active">2 /</span>
+                <span class="calculator__page-inactive"> 4</span>
+            </div>
+            <div class="calculator-options swiper">
+                <div class="calculator-options__list swiper-wrapper">
+                    <div class="calculator-options__item swiper-slide">
+                        <div>
+                            <div class="calculator-options__title">
+                                <h2 class="calculator-options__h2">Нужны ли вам грузчики?</h2>
+                            </div>
+                            <div class="calculator-options__checkboxes">
+                                <div class="calculator-options__form-group">
+                                    <input name="services_of_loaders" class="calculator-options__checkbox" id="ch-1"
+                                           type="radio" value="">
+                                    <label class="calculator-options__label" for="ch-1">Да</label>
+                                </div>
+                                <div class="calculator-options__form-group">
+                                    <input name="services_of_loaders" class="calculator-options__checkbox" id="ch-2"
+                                           type="radio" value="">
+                                    <label class="calculator-options__label" for="ch-2">Нет</label>
+                                </div>
+                            </div><!-- calculator-options__checkboxes -->
+                        </div>
+                    </div><!-- calculator-options__item -->
+                    <div class="calculator-options__item swiper-slide">
+                        <div>
+                            <div class="calculator-options__title">
+                                <h2 class="calculator-options__h2">Каким образом планируете произвести расчет?</h2>
+                            </div>
+                            <div class="calculator-options__checkboxes">
+                                <div class="calculator-options__form-group">
+                                    <input name="payment_method" class="calculator-options__checkbox" id="ch-4"
+                                           type="radio" value="">
+                                    <label class="calculator-options__label" for="ch-4">Наличными</label>
+                                </div>
+                                <div class="calculator-options__form-group">
+                                    <input name="payment_method" class="calculator-options__checkbox" id="ch-5"
+                                           type="radio" value="">
+                                    <label class="calculator-options__label" for="ch-5">Переводом на карту</label>
+                                </div>
+                                <div class="calculator-options__form-group">
+                                    <input name="payment_method" class="calculator-options__checkbox" id="ch-6"
+                                           type="radio" value="">
+                                    <label class="calculator-options__label" for="ch-6">Оплата безналом со счета юр.
+                                        лица</label>
+                                </div>
+                            </div><!-- calculator-options__checkboxes -->
+                        </div>
+                    </div><!-- calculator-options__item -->
+                </div><!-- calculator-options__list -->
+            </div><!-- calculator-options -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-buttons">
+                <div class="swiper-prev"><img src="assets/images/icons/Arrow 2.png"></div>
+                <div class="swiper-next"><img src="assets/images/icons/Arrow 2.png"></div>
+            </div>
+        </div>
+        <div class="calculator__price">
+        	<p>Итоговая стоимость:</p>
+        	<h2>3 500 ₽</h2>
+        </div>
+    </section>
+</main>
+<script>
+    var swiper = new Swiper(".calculator-options", {
+        spaceBetween: 30,
+        navigation: {
+            nextEl: ".swiper-next",
+            prevEl: ".swiper-prev",
+        },
+        pagination: {
+            el: ".swiper-pagination",
+        },
+    });
+</script>
 </body>
 </html>

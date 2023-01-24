@@ -190,13 +190,14 @@ body {
 /*calculator*/
 .calculator {
 	background: #F5F5F5;
+	padding-bottom: 65px;
 }
 .calculator__title {
 	text-align: center;
+	margin-top: 86px;
 }
 
 .calculator__h2 {
-	font-family: 'Rubik';
 	font-style: normal;
 	font-weight: 600;
 	font-size: 28px;
@@ -206,18 +207,109 @@ body {
 }
 
 .calculator__subtitle {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
 	text-align: center;
+
+	color: #171717;
+	text-align: center;
+
+	margin-top: 27px;
 }
 
 .calculator__page {
 	text-align: center;
+	margin-top: 20px;
+}
+
+.calculator__page-active {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 57px;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #171717;
+}
+
+.calculator__page-inactive {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 57px;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #B7B8B9;
+}
+
+/*calculator-options*/
+.calculator-options {
+	margin-top: 30px;
 }
 
 .calculator-options__item {
 	width: 639px;
-	background: #fff;
 	margin: auto auto;
+	padding: 54px 0 43px 0;
+
+	background: #fff;
+
+	display: flex;
+	justify-content: center;
 }
+
+.calculator-options__checkboxes {
+	margin-top: 30px;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.calculator-options__checkbox {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+
+.calculator-options__label {
+	display: inline-flex;
+	align-items: center;
+	user-select: none;
+
+	position: relative;
+	z-index: 1;
+
+	cursor: pointer;
+}
+
+.calculator-options__label:before {
+	content: '';
+
+	display: inline-block;
+	flex-shrink: 0;
+	flex-grow: 0;
+
+	width: 26px;
+	height: 26px;
+	margin-right: 0.5em;
+
+	border: 1px solid #E3E3E3;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 50% 50%;
+}
+
+.calculator-options__checkbox:checked+.calculator-options__label:before {
+	background: url("../images/icons/Vector 5.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #EE7E17;
+}
+
 
 
 
