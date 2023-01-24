@@ -16,7 +16,6 @@ body {
 .container {
 	width: 1200px;
 	margin: auto auto;
-	overflow-x: hidden;
 }
 
 /*header*/
