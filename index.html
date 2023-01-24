@@ -24,16 +24,16 @@
 <body>
 <!-- header -->
 <header class="header">
-    <div class="header__title">
-        <h1 class="header__h1">
-            <span class="header__span">GARBAGE</span>
+    <div class="title">
+        <h1 class="title__h1">
+            <span class="title__span">GARBAGE</span>Delete
         </h1>
     </div>
-    <div class="header__phone">
-        <div class="header__icon">
+    <div class="phone">
+        <div class="phone__icon">
             <img src="assets/images/icons/Vector.png">
         </div>
-        <p class="header__p">
+        <p class="phone__p">
             8-800-2000-600
         </p>
     </div>
@@ -53,7 +53,7 @@
                         необходимые работы - без шума, без грязи и без проволочек</p>
                 </div>
                 <div class="banner__button">
-                    <button class="banner__btn">Рассчитать стоимость</button>
+                    <button class="btn">Рассчитать стоимость</button>
                 </div>
             </div>
             <div class="banner__preview">
@@ -204,13 +204,42 @@
                 <div class="swiper-prev"><img src="assets/images/icons/Arrow 2.png"></div>
                 <div class="swiper-next"><img src="assets/images/icons/Arrow 2.png"></div>
             </div>
-        </div>
-        <div class="calculator__price">
-        	<p>Итоговая стоимость:</p>
-        	<h2>3 500 ₽</h2>
+            <div class="calculator__price">
+                <div>
+                    <p class="calculator__p">Итоговая стоимость:</p>
+                    <h2 class="calculator__h2">3 500 ₽</h2>
+                </div>
+            </div>
+            <div class="calculator__buttons">
+                <div>
+                    <button class="btn">Оставить заявку</button>
+                    <button class="btn2">Не устроила цена?</button>
+                </div>
+            </div>
         </div>
     </section>
 </main>
+<!-- footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="title">
+            <h2 class="title__h1">
+                <span class="title__span">GARBAGE</span>Delete
+            </h2>
+        </div>
+        <div class="footer__inscription">
+            <p style="margin: 23px 0 0 0">© GarbageDelete 2023</p>
+        </div>
+        <div class="phone">
+            <div class="phone__icon">
+                <img src="assets/images/icons/Vector.png">
+            </div>
+            <p class="phone__p">
+                8-800-2000-600
+            </p>
+        </div>
+    </div>
+</footer>
 <script>
     var swiper = new Swiper(".calculator-options", {
         spaceBetween: 30,

@@ -16,6 +16,43 @@ body {
 .container {
 	width: 1200px;
 	margin: auto auto;
+	overflow-x: hidden;
+}
+
+.btn {
+	width: 239px;
+	height: 58px;
+
+	background: #EE7E17;
+	color: #FFFFFF;
+	border-radius: 1000px;
+	border: 0;
+	cursor: pointer;
+
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+}
+
+.btn2 {
+	width: 239px;
+	height: 58px;
+
+	background: #DEE4EB;
+	color: #171717;
+	border-radius: 1000px;
+	border: 0;
+	cursor: pointer;
+
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
 }
 
 /*header*/
@@ -27,32 +64,32 @@ body {
 	margin: auto auto;
 }
 
-.header__title {
+.title {
 	margin-top: 21px;
 }
 
-.header__h1 {
+.title__h1 {
 	font-size: 16px;
 	text-transform: uppercase;
 }
 
-.header .header__span {
+.title__span {
 	background: black;
 	color: #fff;
 
 	font-size: 19px;
 }
 
-.header__phone {
+.phone {
 	margin: 0 0 0 71.5%;
 	display: flex;
 }
 
-.header__icon {
+.phone__icon {
 	margin-top: 21px;
 }
 
-.header__p {
+.phone__p {
 	font-family: 'Rubik';
 	font-style: normal;
 	font-weight: 600;
@@ -110,25 +147,6 @@ body {
 .banner__button {
 	margin-top: 30px;
 }
-
-.banner__btn {
-	width: 239px;
-	height: 58px;
-
-	background: #EE7E17;
-	color: #FFFFFF;
-	border-radius: 1000px;
-	border: 0;
-	cursor: pointer;
-
-	font-family: 'Rubik';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 16px;
-	line-height: 19px;
-	text-align: center;
-}
-
 
 .banner__preview {
 	padding: 58px 0 0 0;
@@ -245,6 +263,30 @@ body {
 	color: #B7B8B9;
 }
 
+.calculator-price {
+	display: flex;
+	justify-content: center;
+}
+
+.calculator__p {
+	text-align: center;
+}
+
+.calculator__h2 {
+	margin-top: 15px;
+}
+
+.calculator__buttons {
+	display: flex;
+	justify-content: center;
+
+	margin-top: 30px;
+}
+
+.calculator .btn2 {
+	margin-left: 25px;
+}
+
 /*calculator-options*/
 .calculator-options {
 	margin-top: 30px;
@@ -307,6 +349,20 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #EE7E17;
+}
+
+/*footer*/
+.footer {
+	padding: 24px 0 38px 0;
+} 
+
+.footer .phone {
+	margin: 0;
+}
+
+.footer .container {
+	display: flex;
+	justify-content: space-between;
 }
 
 
