@@ -270,6 +270,7 @@ body {
 
 .calculator__p {
 	text-align: center;
+	color: #717171;
 }
 
 .calculator__h2 {
@@ -289,6 +290,7 @@ body {
 
 /*calculator-options*/
 .calculator-options {
+	border-radius: 10px;
 	margin-top: 30px;
 }
 
@@ -298,6 +300,7 @@ body {
 	padding: 54px 0 43px 0;
 
 	background: #fff;
+	border-radius: 10px;
 
 	display: flex;
 	justify-content: center;
@@ -366,7 +369,192 @@ body {
 }
 
 
+@media(max-width: 720px) {
 
+html {
+	overflow-x: hidden;
+}
+
+/*header*/
+.header {
+	max-width: 720px;
+	width: 100%;
+	height: 91px;
+	display: flex;
+	flex-direction: column;
+	margin: auto auto;
+	padding: 0 15px 0 15px;
+}
+
+.container {
+	max-width: 720px;
+	width: 100vw;
+	margin: auto auto;
+	overflow-x: hidden;
+}
+
+.phone {
+	margin-left: 0;
+}
+
+.phone__icon {
+	margin: 13px 0 0 0;
+}
+
+.phone__p {
+	margin: 10px 0 0 10px;
+}
+
+/*banner*/
+.banner {
+	height: 285px;
+}
+
+.banner .container {
+	flex-direction: column;
+}
+
+.banner__h2{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	text-transform: uppercase
+}
+
+.banner__title {
+	width: 100vw;
+	padding-top: 22px;
+}
+
+.banner__subtitle {
+	display: none;
+}
+
+.banner__button {
+	display: flex;
+	justify-content: center;
+
+	position: relative;
+	z-index: 2;
+	top: 110px;
+}
+
+.banner__preview {
+	display: flex;
+	justify-content: center;
+
+	right: 0;
+	bottom: 80px;
+	padding: 0;
+}
+
+.banner__preview .img{
+	width: 298px;
+}
+
+/*details*/
+.details__list {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.details__content {
+	display: none;
+}
+
+.details__item {
+	width: 118px;
+}
+
+/*calculator*/
+.calculator {
+	padding-bottom: 10px;
+}
+
+.calculator__title {
+	margin: 0;
+}
+
+.calculator__h2 {
+	font-size: 18px;
+}
+
+.calculator__subtitle {
+	font-size: 16px;
+}
+
+.calculator__page-active {
+	font-size: 33px
+}
+.calculator__page-inactive {
+	font-size: 18px
+}
+
+/*calculator-options*/
+.calculator-options {
+	margin: 0 0 0 4vw;
+	width: 92vw;
+}
+
+.calculator__price {
+	padding: 0;
+
+	position: relative;
+	bottom: 40px;
+}
+
+.calculator__buttons {
+	display: flex;
+	justify-content: center;
+
+	margin: 0;
+
+	position: relative;
+	bottom: 20px;
+}
+
+.calculator__buttons div{
+	width: 212px;
+}
+
+.btn, .btn2 {
+	width: 212px;
+}
+
+.calculator .btn2 {
+	margin: 14px 0 0 0;
+}
+
+/*footer*/
+.footer {
+	display: flex;
+	justify-content: center;
+
+	padding: 0px 0 18px 0;
+}
+.footer .title {
+	display: none;
+}
+
+.footer .phone {
+	display: none;
+}
+
+.footer__p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 12px;
+	text-align: center;
+
+	color: #717171;
+
+	width: 100vw;
+
+}
+}
 
 
 

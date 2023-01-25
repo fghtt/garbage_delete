@@ -1,3 +1,17 @@
+@media(min-width: 1200px) {
+	.swiper {
+		width: 639px!important;
+	}
+}
+
+@media(max-width: 720px) {
+	.swiper-pagination {
+		display: none;
+	}
+}
+
+
+
 .swiper-next, .swiper-prev {
 	cursor: pointer;
 }
@@ -25,12 +39,18 @@
 
 .swiper-pagination {
 	position: static;
+	margin-top: 15px;
+}
+
+
+.swiper-pagination-bullet {
+	width: 17px;
+	height: 17px;
+
+	background: #FFFFFF;
+	border: 1px solid #DCDCDC;
 }
 
 .swiper-pagination-bullet-active {
 	background: #EE7E17;
-}
-
-.swiper {
-	width: 639px!important;
 }
