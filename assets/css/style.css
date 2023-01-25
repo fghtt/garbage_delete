@@ -16,7 +16,6 @@ body {
 .container {
 	width: 1200px;
 	margin: auto auto;
-	overflow-x: hidden;
 }
 
 .text-center {
@@ -118,7 +117,7 @@ body {
 
 /*banner*/
 .banner {
-	background: #F5F5F5;
+	background: #f3f6fa;
 	width: 100vw;
 	height: 485px;
 }
@@ -220,7 +219,7 @@ body {
 
 /*calculator*/
 .calculator {
-	background: #F5F5F5;
+	background: #f3f6fa;
 	padding-bottom: 65px;
 }
 .calculator__title {
