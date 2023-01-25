@@ -19,6 +19,10 @@ body {
 	overflow-x: hidden;
 }
 
+.text-center {
+	text-align: center;
+}
+
 .btn {
 	width: 239px;
 	height: 58px;
@@ -53,6 +57,16 @@ body {
 	font-size: 16px;
 	line-height: 19px;
 	text-align: center;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
 }
 
 /*header*/
@@ -306,11 +320,17 @@ body {
 	justify-content: center;
 }
 
-.calculator-options__checkboxes {
-	margin-top: 30px;
+.calculator-options .column > .row > .calculator-options__form-group {
+	margin: 10px 0 0 100px;
+}
 
-	display: flex;
-	flex-direction: column;
+.calculator-options .column > .row > .calculator-options__form-group:first-child {
+	margin: 10px 0 0 0;
+}
+
+.calculator-options__form-group {
+	margin-left: 40px;
+	max-width: 70%;
 }
 
 .calculator-options__checkbox {
@@ -328,6 +348,19 @@ body {
 	z-index: 1;
 
 	cursor: pointer;
+	color: #717171;
+}
+
+.column .calculator-options__checkboxes {
+	margin-top: 23px;
+}
+
+.column > .calculator-options__form-group {
+	margin: 12px 0 0 0;
+}
+
+.column .calculator-options__form-group:first-child {
+	margin: 0;
 }
 
 .calculator-options__label:before {
@@ -373,6 +406,11 @@ body {
 
 html {
 	overflow-x: hidden;
+}
+
+.row {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
 /*header*/
@@ -498,11 +536,36 @@ html {
 	width: 92vw;
 }
 
+.calculator-options__h2 {
+	text-align: center;
+}
+
+.calculator-options__title {
+	width: 95%;
+	margin-left: 2.5%;
+}
+
+.calculator-options__label {
+	width: 90%;
+}
+
 .calculator__price {
 	padding: 0;
 
 	position: relative;
 	bottom: 40px;
+}
+
+.calculator-options__form-group {
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #717171;
+
+	margin-left: 5%;
 }
 
 .calculator__buttons {
@@ -525,6 +588,22 @@ html {
 
 .calculator .btn2 {
 	margin: 14px 0 0 0;
+}
+
+.column .calculator-options__form-group:first-child {
+	margin-left: 5%;
+}
+
+.column .calculator-options__form-group {
+	margin-left: 5%;
+}
+
+.calculator-options .column > .row > .calculator-options__form-group {
+	margin: 10px 0 0 10%;
+}
+
+.calculator-options .column > .row > .calculator-options__form-group:first-child {
+	margin-left: 5%;
 }
 
 /*footer*/

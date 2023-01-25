@@ -8,6 +8,10 @@
 	.swiper-pagination {
 		display: none;
 	}
+
+	.swiper-buttons {
+		display: none!important;
+	}
 }
 
 
