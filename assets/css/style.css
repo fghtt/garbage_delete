@@ -221,10 +221,10 @@ body {
 .calculator {
 	background: #f3f6fa;
 	padding-bottom: 65px;
+	padding-top: 86px;
 }
 .calculator__title {
 	text-align: center;
-	margin-top: 86px;
 }
 
 .calculator__h2 {
@@ -347,6 +347,14 @@ body {
 	z-index: 1;
 
 	cursor: pointer;
+	color: #717171;
+
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+
 	color: #717171;
 }
 

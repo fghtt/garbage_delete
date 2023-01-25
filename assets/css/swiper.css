@@ -31,6 +31,8 @@
 .swiper-slide {
 	position: relative;
 	z-index: 1;
+
+	box-shadow: 0px 0px 23px rgba(117, 126, 148, 0.14);
 }
 
 .swiper-next {
@@ -46,15 +48,15 @@
 	margin-top: 15px;
 }
 
-
 .swiper-pagination-bullet {
 	width: 17px;
 	height: 17px;
 
-	background: #FFFFFF;
+	background: white!important;
 	border: 1px solid #DCDCDC;
+	opacity: 1;
 }
 
 .swiper-pagination-bullet-active {
-	background: #EE7E17;
+	background: #EE7E17!important;
 }
