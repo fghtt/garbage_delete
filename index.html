@@ -5,23 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Css -->
     <!--Swiper-->
-    <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/swiper.css">
     <!-- Fonts -->
     <!-- Rubik -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
     <title></title>
     <!--JS-->
     <!--Swiper-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 <body>
+<!-- Modal -->
+<div class="modal center close">
+    <div class="modal__window">
+        <div class="modal__close">
+            <img src="assets/images/icons/Group 4.png" alt="modal__close">
+        </div>
+        <div class="modal__title center">
+            <h2 class="modal__h2">Если Вы рассчитывали на меньшую стоимость, то оставьте заявку и мы постараемся оптимизировать Ваши расходы на вывоз мусора</h2>
+        </div>
+        <div class="modal__form center">
+            <form class="">
+                <div class="modal__form-group">
+                    <label>
+                        <div class="modal__icon">
+                            <img src="assets/images/icons/Vector2.png">
+                        </div>
+                        <input class="modal__inpt" type="text" name="name" placeholder="Ваше имя">
+                    </label>
+                </div>
+                <div class="modal__form-group">
+                    <label>
+                        <div class="modal__icon">
+                            <img src="assets/images/icons/Vector3.png">
+                        </div>
+                        <input class="modal__inpt" type="phone" name="password" placeholder="Ваше телефон">
+                    </label>
+                </div>   
+                <div class="modal__form-group center">
+                    <input class="modal__btn" type="submit" name="password" value="Оставить заявку">
+                </div>   
+                <div class="modal__form-group modal__checkbox">
+                    <input class="modal__chb " type="checkbox" name="" id="privacy_policy">
+                    <label for="privacy_policy" class="modal__label_checkbox">Нажимая на кнопку “Оставить заявку” я даю свое согласие на обработку персональных данных</label>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="overlay"></div>
+</div>
 <!-- header -->
 <header class="header">
     <div class="title">
@@ -350,7 +386,7 @@
             </div>
             <div class="calculator__buttons">
                 <div>
-                    <button class="btn">Оставить заявку</button>
+                    <button class="btn open-modal">Оставить заявку</button>
                     <button class="btn2">Не устроила цена?</button>
                 </div>
             </div>
@@ -389,6 +425,21 @@
             el: ".swiper-pagination",
         },
     });
+
+    let btn_open = document.querySelector('.open-modal')
+    let btn_close = document.querySelector('.modal__close')
+    let modal = document.querySelector('.modal')
+
+    btn_open.addEventListener('click', function () {
+        modal.classList.add('open')
+        modal.classList.remove('close')
+    })
+
+    btn_close.addEventListener('click', function () {
+        modal.classList.add('close')
+        modal.classList.remove('open')
+    })
+
 </script>
 </body>
 </html>
