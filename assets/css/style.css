@@ -399,6 +399,10 @@ body {
 	background-color: #EE7E17;
 }
 
+.calculator-options__h2 {
+	font-size: 18px;
+}
+
 /*footer*/
 .footer {
 	padding: 24px 0 38px 0;
@@ -581,6 +585,19 @@ body {
 
 .modal__label_checkbox {
 	width: 90%;
+}
+
+.open-modal:hover { 
+	border: 1px solid #EE7E17; 
+	background: 0; 
+	border-radius: 1000px; 
+	color: #EE7E17; 
+} 
+
+.btn2:hover { 
+	border: 1px solid #A8AFB7; 
+	border-radius: 1000px; 
+	background: 0; 
 }
 
 @media(max-width: 720px) {
